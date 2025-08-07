@@ -13,7 +13,7 @@ python placevent.py mydxfile.dx waterconc cutoff > output.pdb
 Waterconc is the water concentration, typically set at 55.5. Cutoff is the cutoff population density value at which to stop placing waters. Typically it is set to 1.5, meaning that all waters placed would be 1.5 times more likely to be present compared to bulk.
 
 ## Running test case
-For the test case, run the the following in command line:
+For the test case, unzip g.O.1.dx.tar.gz into working directory first. Run the the following in command line:
 ```
 python placevent.py g.O.1.dx 55.5 > 1fjs_output.pdb
 ```
